@@ -1,0 +1,27 @@
+
+<html>
+    <head>
+        <title>login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/login.css">
+    </head>
+    <body>
+    <div class="form-container">
+        <h2>Login</h2>
+        <form action="Login" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="button-container">
+                 <button type="submit" class="signin-btn">Sign In</button>
+                 <button type="button" class="signup-btn" onclick="window.location.href = 'signup.html'">Sign Up</button>
+               
+            </div>
+        </form>
+    </div>
+</body>
+</html>

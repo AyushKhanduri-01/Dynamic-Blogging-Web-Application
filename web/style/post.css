@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.headers{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    color:white;
+    background-color:orangered;
+    margin-bottom: 1px;
+    font-family:monospace;
+}
+
+.wrapper-div{
+    margin-top: 70px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.connection-div{
+    position:fixed;
+    top: 70px;
+    width: 22%;
+    max-height: calc(100vh - 70px);
+    overflow-y:auto;
+    background-color: lightgray;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+#connection-wrapper{
+    width: 100%;
+
+
+}
+#connection-wrapper h2{
+
+
+    color: black;
+    margin-left: 5px;
+    padding-left: 10px;
+
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+#connection-wrapper h2:hover{
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+}
+#connctions{
+
+
+    background-color: grey;
+    width: 100%;
+    margin-left: 0px;
+    color: white;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    margin-bottom: 10px;
+    font-family:unset;
+}
+
+
+.main {
+    background: white;
+    width: 58%;
+    margin-left: 22%;
+}
+.btn{
+    width: 80px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+
+}
+.btn:hover{
+    background-color: black;
+}
+.div1 {
+
+    position: fixed;
+    top:70px;
+    display: flex;
+    height: 55px;
+    width: 58%;
+    background: wheat;
+    justify-content: left;
+    padding-left: 10px;
+    line-height: 55px;
+
+}
+
+.post {
+    background: yellow;
+    height: 100px;
+}
+
+
+/*Css for form ------------- */
+.form-container {
+    max-width: 70%;
+
+    margin: 0 auto;
+    margin-top: 65px;
+    padding: 20px;
+    background: red;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="text"],
+.form-container textarea,
+.form-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button[type="button"] {
+    background-color: #dc3545;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+/*end of  Css for form ------------- */
+
+
+
+
+/*css for posts*/
+#post-wrapper{
+    border: 1px solid black;
+
+    margin-bottom: 10px;
+}
+.post-container {
+
+    margin-top: 55px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+#thumbnailImage{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+.user-details {
+    flex: 1;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.timestamp {
+    color: #888;
+}
+
+.post-content {
+    margin-top: 6px;
+    padding: 2px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.post-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post-content p {
+    margin-bottom: 10px;
+
+}
+
+.media-display {
+    max-width: 100%;
+
+}
+
+.media-display img{
+    max-width: 40%;
+    max-height: 200px;
+    /*height: auto;*/
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.media-display video{
+    display:none;
+}
+.media-display audio{
+    display: none;
+}
+
+.comment {
+    display: none;
+    background: #ddd;
+    width: 200px;
+
+}
+.L\&C-btnn{
+    width: 60px;
+    height: 25px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+
+}
+.L\&C-btnn:hover{
+    cursor: pointer;
+    background-color: black;
+
+}
+
+.btn{
+    width: 80px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+
+}
+.btn:hover{
+    background-color: black;
+}
+
+
+/*end of css for posts*/
+
+
+.search-div{
+    position: fixed;
+    top:70px;
+    right: 0;
+    width: 20%;
+    min-height: 100px;
+    height:auto;
+    background-color: lightgray;
+}
+#searchItem{
+    width: 100%;
+    height: auto;
+
+}
+.search-bar{
+    margin: 7px 3px;
+    height: 30px;
+    justify-content: center;
+}
+.search-bar input[type="text"] {
+    width: 100%;
+    height: 30px;
+}
+
+
+.comment_box{
+    background-color:lightblue;
+
+}
+
+#comment{
+
+    font-size: 17px;
+    color:black;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
